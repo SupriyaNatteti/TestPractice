@@ -1,0 +1,41 @@
+/* [attribute */
+/* input[type]{
+    background-color: brown;
+} */
+
+
+/* [attribute="value" */
+/* input[type="password"]{
+    background-color: aqua;
+} */
+
+
+/* [attribute~="value"] */
+/* h1[class~="hai"]{
+    color: palevioletred;
+} */
+
+
+/* [attribute="value"] */
+/* h1[class|="hai"]{
+    color: brown;
+} */
+
+
+/* [attribute^="value"] */
+/* h1[class^="hai"]{
+    color: brown;
+} */
+
+
+/* [attribute$="value"] */
+/* h1[class$="hai"]{
+    color: brown;
+} */
+
+
+/* [attribute$="value"] */
+/* h1[class*="hai"]{
+    color: brown;
+    background-color: aqua;
+} */

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+
+}
+
+section{
+    display: flex;
+}
+
+#one{
+    flex-basis: 15%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#bar{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+img{
+    padding-left: 15px;
+}
+
+span{
+    padding-bottom: 20px;
+    padding-right: 60px;
+    font-size: 10px;
+}
+
+#two{
+    flex-basis: 70%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 2px solid #f8f8f8;
+    outline: none;
+}
+
+#search{
+    height: 30px;
+    width: 40px;
+    background-color: #f8f8f8;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    right: 35px;
+    border-left:2px solid #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mic{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 5px;
+}
+
+
+
+#three{
+    flex-basis: 15%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#mail{
+    height: 30px;
+    width: 30px;
+    color: white;
+    border: 1px solid black;
+    border-radius:50% ;
+    background-color: blue;
+    font-size: 20px;
+    /* padding-bottom: 10px; */
+    padding-left: 10px;
+}

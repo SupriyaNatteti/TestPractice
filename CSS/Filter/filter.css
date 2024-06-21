@@ -1,0 +1,16 @@
+img{
+    height: 300px;
+    width: 300px;
+    filter: blur(10px);
+    filter: brightness(0.6);
+    filter: grayscale(0.7);
+    filter: opacity(0.4);
+    filter: drop-shadow(10px 10px 30px red);
+
+}
+
+img:hover{
+    /* filter: blur(10px); */
+    /* filter: brightness(0.6); */
+    /* filter: opacity(0.5); */
+}

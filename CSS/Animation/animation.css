@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* div{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+    animation-name: love;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes love{
+    from{
+        font-size: 30px;
+    }
+    to{
+        font-size: 100px;
+    }
+} */
+
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+img{
+    height: 5oopx;
+    width: 500px;
+    border-radius: 50%;
+
+    animation-name: supriya;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes supriya{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+
+/* body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    border: 10px solid white;
+    border-top-color: orchid;
+    border-radius: 50%;
+
+    animation: loading 3s linear 0s normal infinite;
+}
+
+@keyframes loading{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+} */
+
+
+/* body{
+    height: 100vh;
+    width: 100vw;
+    
+} 
+
+footer{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+
+    animation: color 500ms ease 0s normal infinite;
+}
+
+@keyframes color{
+    0%{
+        background-color: red;
+    }25%{
+        background-color: green;
+    }50%{
+        background-color: blue;
+    }75%{
+        background-color: deeppink;
+    }100%{
+        background-color: yellow;
+    }
+} */
+
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: palevioletred;
+    display: grid;
+    place-items: center;
+}
+
+#container{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    background-color: skyblue;
+    
+
+    
+}
+
+img{
+    min-height: 80%;
+    min-width: 100%;
+    animation: image 10s ease 0s alternate infinite;
+    border-radius: 30%;
+}
+
+@keyframes image{
+    0%{
+        transform: translateX(0%);
+    }25%{
+        transform: translateX(-100%);
+    }50%{
+        transform: translateX(-200%);
+    }75%{
+        transform: translateX(-300%);
+    }100%{
+        transform: translateX(-300%);
+    }
+}
+
+h1{
+    font-family: "Honk", system-ui;
+    font-size: 100px;
+}

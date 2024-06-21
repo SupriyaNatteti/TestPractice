@@ -1,0 +1,27 @@
+
+/* decsendent */
+
+/* div p{
+    color: brown;
+} */
+
+
+/* child */
+
+/* div>p{
+    color: blue;
+} */
+
+
+/* adjacent */
+
+/* h1+p{
+    color: lightcoral;
+} */
+
+
+/* general */
+
+h1~p{
+    color: blueviolet;
+}

@@ -1,0 +1,46 @@
+/* first letter */
+p::first-letter{
+    color: red;
+    font-size: 100px;
+}
+
+
+/* first line*/
+p::first-line{
+    color: blue;
+}
+
+
+/* before */
+p::before{
+    content: "👩";
+}
+
+
+/* after */
+p::after{
+    content: "🧑👩";
+}
+
+
+/* marker */
+li::marker{
+    color: brown;
+}
+
+li::marker{
+    content: "👩";
+}
+
+
+/* selection */
+p::selection{
+    color: red;
+    background-color: black;
+}
+
+
+/* place holder */
+input::placeholder{
+    color: deeppink;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    height: 100px;
+    width: 400px;
+    background-color: yellowgreen;
+    height: 50%;
+    width: 50%;
+}
+
+section{
+    height: 500px;
+    width: 500px;
+    background-color:lightcyan;
+}
+footer{
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+}
+
+main{
+    height: 50vh;
+    width: 50vw;
+    background-color: blue;
+}
+
+/* em and rem */
+
+body{
+    font-size: 20px;
+}
+
+p{
+    font-size: 2em;
+}
+html{
+    font-size: 16px;
+}
+
+nav{
+    font-size: 3rem;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 600px;
+    width: 600px;
+    background-color: yellow;
+}
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+#red{
+    background-color: red;
+    float: left;
+    float: right;
+    float: none;
+    
+}
+#green{
+    background-color: green;
+    float: right;
+    /* float: left; */
+}
+#blue{
+    background-color: blue;
+    float: right;
+    /* float: left; */
+}

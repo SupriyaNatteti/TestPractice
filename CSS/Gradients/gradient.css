@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* Linear Gradient  */
+
+body{
+    /* border: 5px solid green; */
+    height: 650px;
+    background: linear-gradient(black,white,aqua);
+    background: linear-gradient(to bottom,black,white,aqua);
+    background: linear-gradient(to top,black,white,aqua);
+    background: linear-gradient(to right,black,white,aqua);
+    background: linear-gradient(to left,black,white,aqua);
+    background: linear-gradient(to bottom left,black,white,aqua);
+    background: linear-gradient(to bottom right,black,white,aqua);
+    background: linear-gradient(to top left,black,white,aqua);
+    background: linear-gradient(to top right,black,white,aqua);
+l
+    
+
+}
+
+/* Radial Gradient */
+
+body{
+    background: radial-gradient(black,aqua,pink);
+    background: radial-gradient(ellipse,black,aqua,pink);
+    background: radial-gradient(circle,black,aqua,pink);
+    background: radial-gradient(circle,black 0% 20%,aqua 20% 40%,pink 40% 60%);
+    background: repeating-radial-gradient(circle,black 0% 10%,aqua 10% 20%,magenta 20% 30%);
+
+
+}
+
+/* Conic Gradient */
+
+body{
+    background: conic-gradient(pink,white,blue);
+    background: conic-gradient(pink 0deg 10deg,white 10deg 20deg,blue 20deg 30deg);
+    background: repeating-conic-gradient(pink 0deg 10deg,white 10deg 20deg,blue 20deg 30deg);
+    
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin-left: 487px;
+    margin-top: 160px;
+    background: repeating-conic-gradient(orange 0deg 10deg,white 10deg 20deg,green 20deg 30deg);
+    border-radius: 50%;
+    box-shadow: 20px 20px 20px magenta;
+    animation: rotate 500ms linear 0s infinite;
+}
+@keyframes rotate{
+    from{
+        rotate: 0deg;
+    }to{
+        rotate: 360deg;
+    }
+}

@@ -1,0 +1,54 @@
+/* hover */
+/* button:hover{
+    color: white;
+    background-color: black;
+}
+
+h1:hover{
+    color: red;
+    background-color: blue;
+} */
+
+/* active */
+/* a:active{
+    color: lightcoral;
+} */
+
+/* visited */
+/* a:visited{
+    color: brown;
+    background-color: blue;
+} */
+
+/* focus */
+/* input:focus{
+    color: blueviolet;
+
+} */
+
+/* first child */
+/* div>p:first-child{
+    color: blueviolet;
+} */
+
+/* last child */
+/* div>p:last-child{
+    color: brown;
+} */
+
+/* nth child */
+/* div>p:nth-child(4){
+    color: aqua;
+} */
+
+
+/* not() */
+/* li:not(.exclude){
+    color: aqua;
+} */
+
+
+/* checked */
+input:checked+label{
+    color: brown;
+}

@@ -1,0 +1,24 @@
+
+section{
+    background-color: lightcoral;
+    height: 400px;
+    width: 400px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: lightpink;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* div{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    position: relative;
+    top: 200px;
+    bottom: 300px;
+    left: 200px;
+    right: 300px;
+} */
+
+/* #parent{
+    height: 400px;
+    width: 400px;
+    background-color: yellowgreen;
+    margin: 50px; */
+    /* position: relative; */
+/* } */
+/* #child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:absolute;
+    top: 20px;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#red{
+    background-color: red;
+    position:absolute
+}
+#green{
+    background-color: green;
+    height: 125px;
+    
+}
+#blue{
+    background-color: blue;
+}
+
+/* position:fixed */
+
+/* footer{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position:fixed;
+    top: 200px;
+    left: 200px;
+    
+} */
+
+
+/* sticky */
+
+/* section{
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+}
+#one{
+    background-color: yellow;
+}
+#two{
+    background-color: green;
+    height: 1500px;
+}
+main{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    position:sticky;
+    top:200px;
+} */
+
+/* static */
+nav{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: static;
+    top: 100px;
+    left: 100px;
+    
+}
+
+/* z index */
+
+div{
+    height: 200px;
+    width: 100px;
+    border: 5px solid black;
+}
+#one{
+    position: absolute;
+    z-index:100 ;
+}
+#two{
+    position: absolute;
+    z-index:101 ;
+}
+#three{
+    position: absolute;
+    z-index:102 ;
+}

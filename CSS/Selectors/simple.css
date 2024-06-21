@@ -1,0 +1,46 @@
+/* #hmm{
+    color: blueviolet;
+} */
+
+
+/* class */ 
+
+
+/* .something{
+    color: blue;
+}
+.anywhere{
+    background-color: yellow;
+} */
+
+
+/* tag name */
+
+
+/* h1{
+    color: lightcoral;
+}
+p{
+    background-color: lightblue;
+} */
+
+
+/* grouping */
+
+
+/* h1,p,button{
+    color: lightcyan;
+    background-color: lightslategray;
+} */
+
+/* .hii,#bye{
+    color: yellow;
+    background-color: lightgreen;
+} */
+
+
+/* universal */
+
+*{
+    background-color: lightcoral;
+}
